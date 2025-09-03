@@ -3,12 +3,26 @@ import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
 const age = 16;
+const licenseAge = 0;
 let feedback = '';
-if (age >= 18){
-  feedback = 'You are allowed to drive.YAY!'
-}else{
+if (age >= 18)
+  (licenseAge >= 3){
+        {
+          feedback = 'You are allowed to drive and you are experienced.'
+        }else
+
+
+        
+
+
+        
+          feedback = 'You are allowed to drive.YAY!'
+
+} else {
   feedback = 'You are not allowed to drive yet.'
 }
+
+
 
   return (
     <View style={styles.container}>
