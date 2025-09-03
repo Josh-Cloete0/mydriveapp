@@ -22,13 +22,15 @@ if (age >= 18){
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: 'rgb(35, 160, 143)',
     alignItems: 'center',
     justifyContent: 'center',
   },
 
   response:{
     fontSize:28,
+    color:'white',
 
   }
 });
+ 
